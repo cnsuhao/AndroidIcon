@@ -5,7 +5,7 @@
 
 ## 截图
 
-![AndroidIcon](http://git.oschina.net/sollyu/AndroidIcon/blob/master/bin/screen.png)
+![AndroidIcon](http://git.oschina.net/sollyu/AndroidIcon/raw/master/bin/screen.png)
 
 ## 下载
 

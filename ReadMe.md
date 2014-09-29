@@ -5,8 +5,8 @@
 
 ## 截图
 
-![AndroidIcon]("")
+![AndroidIcon]("http://git.oschina.net/sollyu/AndroidIcon/blob/master/bin/screen.png")
 
 ## 下载
 
-[AndroidIcon.dmg]("")
+[AndroidIcon.dmg]("http://git.oschina.net/sollyu/AndroidIcon/blob/master/bin/AndroidIcon.dmg")

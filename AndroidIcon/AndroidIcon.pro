@@ -11,23 +11,25 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET       = AndroidIcon
 TEMPLATE     = app
 CONFIG      += c++11
-DESTDIR      = ../bin/
+DESTDIR      = $$PWD/../bin/
 
 MOC_DIR     += ./bin/moc/
 UI_DIR      += ./bin/ui/
 RCC_DIR     += ./bin/rcc/
 OBJECTS_DIR += ./bin/obj
 
-SOURCES += main.cpp\
-        dialogmain.cpp
+SOURCES +=  $$PWD/main.cpp\
+            $$PWD/dialogmain.cpp \
+            $$PWD/PublicDialog/publicdialog.cpp
 
-HEADERS  += dialogmain.h
+HEADERS  += $$PWD/dialogmain.h \
+            $$PWD/PublicDialog/publicdialog.h
 
-FORMS    += dialogmain.ui
+FORMS    += $$PWD/dialogmain.ui
 
 RESOURCES += \
-    AndroidIcon.qrc
+            $$PWD/AndroidIcon.qrc
 
 mac {
-    ICON = ./Resource/icon.icns
+    ICON =  $$PWD/Resource/icon.icns
 }
